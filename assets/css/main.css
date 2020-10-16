@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  margin: 0 100px;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.input-menu {
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
