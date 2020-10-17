@@ -1,29 +1,42 @@
 .menu {
     width: 100%;
     padding: 10px;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    .nav {
+        display: inline-block;
+        width: 91%;
+        text-align: right;
+        ul{ 
+            li {  
+                a {
+                    padding: 0 10px;
+                    float: right;
+                    text-decoration: none;
+                    text-transform: uppercase; //transforma las minusculas en mayusculas                    
+                }
+
+                .buscar {
+                    border-radius: 30px;
+                    float: right;                    
+                }
+            }
+           
+        }
+    }
+    
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-.nav {
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-}
 
 
 
-.nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
-.input-menu {
-    border-radius: 30px;
-}
+
+
