@@ -1,20 +1,12 @@
-body {
-  font-family: monospace;
-  margin: 0 50px;
-  padding: 0;
-}
-body * {
-  margin: 0;
-  padding: 0;
+* {
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
 }
-body .container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 0 10%;
+* body {
+  font-family: monospace;
+  margin: 0 50px;
+  padding: 0;
 }
 
 .menu {
@@ -49,7 +41,6 @@ body .container {
   width: 100%;
   height: auto;
   margin: auto;
-  clear: both;
   padding-top: 10px;
   float: left;
   /* Extra small devices (portrait phones, less than 576px) */
@@ -278,13 +269,90 @@ body .container {
 @media (min-width: 576px) {
   .row {
     position: relative;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: auto;
     clear: both;
     padding-top: 10px;
     float: left;
   }
+}
+.row2 {
+  position: relative;
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding-top: 20px;
+  float: right;
+}
+
+.cabecera-listado {
+  border-bottom: 1px solid gray;
+  text-align: left;
+}
+.cabecera-listado p {
+  margin: 10px 0;
+}
+
+.tags {
+  border-bottom: 1px solid gray;
+  margin: 10px 0;
+}
+.tags ul {
+  text-align: right;
+  margin: 5px 0;
+}
+.tags ul li {
+  padding: 2px 4px;
+  background-color: steelblue;
+  margin-right: 15px;
+  color: white;
+  display: inline-block;
+}
+
+.noticias-destacadas {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.noticias-destacadas h1, .noticias-destacadas h4 {
+  text-align: left;
+  margin: 10px 0;
+}
+.noticias-destacadas img {
+  width: 100%;
+  height: 250px;
+  margin: 10px 0;
+}
+
+section .newsletter {
+  width: 100%;
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+}
+
+.group input,
+.group button {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.group button {
+  background-color: coral;
+  color: white;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
